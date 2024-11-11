@@ -27,7 +27,7 @@ def bubbleSort(data):
     for i in range(size):
         swapped = False
         for j in range(0, size - i - 1):
-            if data[j]['distance'] < data[j + 1]['distance']:
+            if data[j]['distance'] > data[j + 1]['distance']:
                 # swapping of the data
                 data[j], data[j + 1] = data[j + 1], data[j]
                 swapped = True
