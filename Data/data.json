@@ -1,0 +1,212 @@
+[
+    {
+        "id": "1",
+        "from": "Entrance",
+        "to": "Exhibit A",
+        "accessible": true,
+        "distance": 150
+    },
+    {
+        "id": "2",
+        "from": "Entrance",
+        "to": "Restroom",
+        "accessible": true,
+        "distance": 50
+    },
+    {
+        "id": "3",
+        "from": "Exhibit A",
+        "to": "Cafeteria",
+        "accessible": false,
+        "distance": 200
+    },
+    {
+        "id": "4",
+        "from": "Restroom",
+        "to": "Gift Shop",
+        "accessible": true,
+        "distance": 70
+    },
+    {
+        "id": "5",
+        "from": "Cafeteria",
+        "to": "Exhibit B",
+        "accessible": true,
+        "distance": 300
+    },
+    {
+        "id": "6",
+        "from": "Entrance",
+        "to": "Exhibit B",
+        "accessible": false,
+        "distance": 400
+    },
+    {
+        "id": "7",
+        "from": "Exhibit B",
+        "to": "Exit",
+        "accessible": true,
+        "distance": 150
+    },
+    {
+        "id": "8",
+        "from": "Cafeteria",
+        "to": "Restroom",
+        "accessible": true,
+        "distance": 180
+    },
+    {
+        "id": "9",
+        "from": "Gift Shop",
+        "to": "Exhibit C",
+        "accessible": false,
+        "distance": 220
+    },
+    {
+        "id": "10",
+        "from": "Exhibit C",
+        "to": "Restroom",
+        "accessible": true,
+        "distance": 130
+    },
+    {
+        "id": "11",
+        "from": "Entrance",
+        "to": "Exhibit C",
+        "accessible": true,
+        "distance": 500
+    },
+    {
+        "id": "12",
+        "from": "Exhibit B",
+        "to": "Gift Shop",
+        "accessible": false,
+        "distance": 60
+    },
+    {
+        "id": "13",
+        "from": "Cafeteria",
+        "to": "Entrance",
+        "accessible": true,
+        "distance": 240
+    },
+    {
+        "id": "14",
+        "from": "Exhibit C",
+        "to": "Exit",
+        "accessible": true,
+        "distance": 275
+    },
+    {
+        "id": "15",
+        "from": "Gift Shop",
+        "to": "Exit",
+        "accessible": true,
+        "distance": 95
+    },
+    {
+        "id": "16",
+        "from": "Entrance",
+        "to": "Exhibit D",
+        "accessible": true,
+        "distance": 430
+    },
+    {
+        "id": "17",
+        "from": "Exhibit D",
+        "to": "Restroom",
+        "accessible": false,
+        "distance": 85
+    },
+    {
+        "id": "18",
+        "from": "Exhibit D",
+        "to": "Cafeteria",
+        "accessible": true,
+        "distance": 120
+    },
+    {
+        "id": "19",
+        "from": "Exhibit A",
+        "to": "Exit",
+        "accessible": false,
+        "distance": 340
+    },
+    {
+        "id": "20",
+        "from": "Cafeteria",
+        "to": "Exhibit C",
+        "accessible": true,
+        "distance": 190
+    },
+    {
+        "id": "21",
+        "from": "Lobby",
+        "to": "Exhibit A",
+        "accessible": true,
+        "distance": 160
+    },
+    {
+        "id": "22",
+        "from": "Lobby",
+        "to": "Gift Shop",
+        "accessible": true,
+        "distance": 75
+    },
+    {
+        "id": "23",
+        "from": "Exhibit C",
+        "to": "Exhibit B",
+        "accessible": false,
+        "distance": 210
+    },
+    {
+        "id": "24",
+        "from": "Restroom",
+        "to": "Lobby",
+        "accessible": true,
+        "distance": 65
+    },
+    {
+        "id": "25",
+        "from": "Cafeteria",
+        "to": "Lobby",
+        "accessible": false,
+        "distance": 250
+    },
+    {
+        "id": "26",
+        "from": "Exhibit B",
+        "to": "Lobby",
+        "accessible": true,
+        "distance": 290
+    },
+    {
+        "id": "27",
+        "from": "Gift Shop",
+        "to": "Cafeteria",
+        "accessible": true,
+        "distance": 110
+    },
+    {
+        "id": "28",
+        "from": "Exhibit D",
+        "to": "Lobby",
+        "accessible": false,
+        "distance": 130
+    },
+    {
+        "id": "29",
+        "from": "Exhibit A",
+        "to": "Exhibit D",
+        "accessible": true,
+        "distance": 320
+    },
+    {
+        "id": "30",
+        "from": "Lobby",
+        "to": "Exit",
+        "accessible": true,
+        "distance": 180
+    }
+]
