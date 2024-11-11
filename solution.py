@@ -38,7 +38,7 @@ def bubbleSort(data):
 
 print("final answer:")
 sorted_data = bubbleSort(accessibleData)
-print(bubbleSort(sorted_data))
+print(json.dumps(bubbleSort(sorted_data), indent = 4))
 
 
 # Santity check
