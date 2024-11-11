@@ -3,11 +3,23 @@ import json
 with open('Data/data.json', 'r') as file: 
     data = json.load(file)
 
+
+def isAccessible(data):
+    accessibleData = []
+    for i in range(len(data)):
+        if data[i]['accessible'] == True:
+            accessibleData.append(data[i])
+
+    return accessibleData
+
+accessibleData = isAccessible(data)
+print(accessibleData)
+
 # printing data to see if I can print it
 # print(data)
 
 # size is the number of entries in the data
-size = len(data)
+size = len(accessibleData)
 
 # grabbing distance from data test
 #print(data[0]['distance'])
@@ -26,10 +38,10 @@ def bubbleSort(data):
 
 
 print("sorted")
-sorted_data = bubbleSort(data)
+sorted_data = bubbleSort(accessibleData)
 print(bubbleSort(sorted_data))
 
 
 # Santity check
 #for i in range(len(sorted_data)): 
-#    print(sorted_data[i]['distance'])
+#    print(sorted_data[i]['distance'], ' -- ', sorted_data[i]['accessible'])
