@@ -13,18 +13,17 @@ def isAccessible(data):
     return accessibleData
 
 accessibleData = isAccessible(data)
-print(accessibleData)
+#print(accessibleData)
 
 # printing data to see if I can print it
 # print(data)
-
-# size is the number of entries in the data
-size = len(accessibleData)
 
 # grabbing distance from data test
 #print(data[0]['distance'])
 
 def bubbleSort(data):
+    # size is the number of entries in the data
+    size = len(data)
     for i in range(size):
         swapped = False
         for j in range(0, size - i - 1):
@@ -37,7 +36,7 @@ def bubbleSort(data):
     return data
 
 
-print("sorted")
+print("final answer:")
 sorted_data = bubbleSort(accessibleData)
 print(bubbleSort(sorted_data))
 
